@@ -3,6 +3,8 @@
 
 
 # Primeira Aula
+<details>
+  <summary>Clique para Ver </summary>
 
 ## Objetivos:
 
@@ -10,11 +12,25 @@
 - 2° Parsear os filmes para um JSON
 - 3° Exibir o título, ano e classificação
 
-# Bibliotecas externas utilizadas
+## Bibliotecas externas utilizadas
 - jackson-databind
 
-# Resultado
+## Resultado
 <img src="./assets/Aula01.png">
+</details>
+
+<br>
+<br>
+
+# Segunda Aula 
+<details>
+  <summary>Clique para Ver</summary>
+  
+## Em Breve
+</details>
+
+<br>
+<br>
 
 # Autor
 Cléo Maia Cordeiro
