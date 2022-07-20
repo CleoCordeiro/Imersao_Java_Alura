@@ -52,6 +52,8 @@
 <img src="./assets/Aula02.gif">
 
 </details>
+<br>
+<br>
 
 # Terceira Aula 
 <details>
@@ -64,7 +66,7 @@
   - Pegar urls de um enum
 
 ## Resultado
-<img src="./assets/Aula03.png"
+<img src="./assets/Aula03.png">
 
 </details>
 <br>
