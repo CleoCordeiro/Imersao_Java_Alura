@@ -1,10 +1,14 @@
 # Imersao_Java_Alura
-### Repostirio criado para colocar o código da imersão Java do Alura
+### Repositório criado para colocar o código da imersão Java da Alura
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``Java 17``
 - ``VSCODE``
+
+## Bibliotecas externas utilizadas
+- jackson-databind
+
 
 # Primeira Aula
 <details>
@@ -16,8 +20,7 @@
 - 2° Parsear os filmes para um JSON
 - 3° Exibir o título, ano e classificação
 
-## Bibliotecas externas utilizadas
-- jackson-databind
+
 
 ## Resultado
 <img src="./assets/Aula01.png">
@@ -43,8 +46,6 @@
 - Desafio supremo: usar alguma biblioteca de manipulação de imagens como OpenCV pra extrair imagem - principal e contorná-la.
 (Faltou explicar melhor)
 
-## Bibliotecas externas utilizadas
-- jackson-databind
 <br>
 
 ## Resultado
@@ -52,6 +53,20 @@
 
 </details>
 
+# Terceira Aula 
+<details>
+  <summary>Clique para Ver</summary>
+
+  ## Objetivos
+  - Refatorar o código usando POO
+  - Fazer um código reutilizável 
+  - Adicionar API da Masa
+  - Pegar urls de um enum
+
+## Resultado
+<img src="./assets/Aula03.png"
+
+</details>
 <br>
 <br>
 
