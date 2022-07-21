@@ -1,14 +1,9 @@
 package com.cleo.Aula03;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
 
 import com.cleo.Aula03.Model.ApiUrls;
 import com.cleo.Aula03.Util.Consumer;
-import com.cleo.Aula03.Util.MakeSticker;
-import com.cleo.Aula03.Util.ContentExtrator.ContentExtractorIMDB;
-import com.cleo.Aula03.Util.ContentExtrator.ContentExtractorNASA;
 import com.cleo.Aula03.Util.ContentExtrator.ContentExtrator;
 
 /**
@@ -19,9 +14,8 @@ import com.cleo.Aula03.Util.ContentExtrator.ContentExtrator;
  */
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
-        ContentExtrator contentExtractorIMDB = new ContentExtractorIMDB(ApiUrls.IMDB.url());
-        ContentExtrator contentExtractorNASA = new ContentExtractorNASA(ApiUrls.NASA.url());
-        new Consumer(contentExtractorNASA).consumer();
+        ContentExtrator contentExtractor = ApiUrls.NASA.contentExtrator();
+        new Consumer(contentExtractor).consumer();
     }
 
 }
