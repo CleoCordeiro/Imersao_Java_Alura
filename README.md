@@ -7,6 +7,7 @@
 - ``VSCODE``
 - ``SpringBoot``
 - ``MongoDB``
+- ``OpenAPI``
 
 ## Bibliotecas externas utilizadas
 - jackson-databind
@@ -90,6 +91,28 @@
 <img src="./assets/Aula04.gif">
 
 </details>
+<br>
+<br>
+
+
+# Quinta Aula 
+<details>
+  <summary>Clique para Ver</summary>
+
+## Objetivos
+  - Fazer Deploy da API no Heroku
+  - Criar Documentação da API(Swagger OPENAPI)
+  - Integrar a API Com o Gerador de Stickers
+
+## Descrição
+Decidi me desafiar é criar uma API que além do que foi pedido nos desafios, tivesse uma documentação (ainda não está bem documentada e faltam alguns tratamentos de erros),  também tive a ideia de colocar um gerador de Stickers que recebe o nome, link da imagem e frase desejada na geração, ao final gera o Sticker para o usuário baixar.
+
+## Link Para Acessar A API
+[API Imersão Java](https://imersaojava.herokuapp.com/swagger-ui/index.html)
+
+## Resultado 
+<img src="./assets/Aula05.gif">
+
 <br>
 <br>
 

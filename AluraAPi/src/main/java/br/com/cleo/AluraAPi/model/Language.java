@@ -3,21 +3,43 @@ package br.com.cleo.AluraAPi.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
 @Document(collection = "languagens")
 public class Language {
+
     @Id
+    @Schema(example = "1", description = "Id da linguagem")
     String id;
 
+    @Schema(example = "Java", description = "Nome da linguagem")
     String name;
 
+    @Schema(example = "Linguagem do meu coração", description = "Descrição da linguagem")
     String description;
 
+    @Schema(example = "1", description = "Posição da linguagem no ranking")
     Integer ranking;
 
+    @Schema(example = "https://raw.githubusercontent.com/abrahamcalf/programming-languages-logos/master/src/java/java_256x256.png")
     String image;
+
+    public Language() {
+    }
+
+    public Language(String name, String description, Integer ranking, String image) {
+        this.name = name;
+        this.description = description;
+        this.ranking = ranking;
+        this.image = image;
+    }
 
     public String getId() {
         return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -50,27 +72,6 @@ public class Language {
 
     public void setImage(String image) {
         this.image = image;
-    }
-
-    public void Update(Language updateValues) {
-        if (updateValues.getName() != null) {
-            this.setName(updateValues.getName());
-        }
-        if (updateValues.getDescription() != null) {
-            this.setDescription(updateValues.getDescription());
-        }
-        if (updateValues.getRanking() != 0) {
-            this.setRanking(updateValues.getRanking());
-        }
-        if (updateValues.getImage() != null) {
-            this.setImage(updateValues.getImage());
-        }
-    }
-
-    @Override
-    public String toString() {
-        return "Language [description=" + description + ", id=" + id + ", image=" + image + ", name=" + name
-                + ", ranking=" + ranking + "]";
     }
 
 }
