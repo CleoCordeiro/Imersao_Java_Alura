@@ -62,7 +62,7 @@
   ## Objetivos
   - Refatorar o código usando POO
   - Fazer um código reutilizável 
-  - Adicionar API da Masa
+  - Adicionar API da Nasa
   - Pegar urls de um enum
 
 ## Resultado
