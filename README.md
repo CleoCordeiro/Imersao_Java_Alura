@@ -28,8 +28,6 @@
 ## Resultado
 <img src="./assets/Aula01.png">
 </details>
-
-<br>
 <br>
 
 # Segunda Aula 
@@ -56,7 +54,6 @@
 
 </details>
 <br>
-<br>
 
 # Terceira Aula 
 <details>
@@ -72,7 +69,6 @@
 <img src="./assets/Aula03.png">
 
 </details>
-<br>
 <br>
 
 # Quarta Aula 
@@ -91,7 +87,6 @@
 <img src="./assets/Aula04.gif">
 
 </details>
-<br>
 <br>
 
 
@@ -112,8 +107,7 @@ Decidi me desafiar é criar uma API que além do que foi pedido nos desafios, ti
 
 ## Resultado 
 <img src="./assets/Aula05.gif">
-
-<br>
+</details>
 <br>
 
 # Autor
